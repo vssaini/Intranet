@@ -1,0 +1,86 @@
+/* .ajax__tab_header - A container element that wraps all of the tabs at the top of the TabContainer. Child CSS classes:.ajax__tab_outer. */
+/* .ajax__tab_outer - An outer element of a tab, often used to set the left-side background image of the tab.Child CSS classes: .ajax__tab_inner. */
+/* .ajax__tab_inner	 - An inner element of a tab, often used to set the right-side image of the tab. Child CSS classes:.ajax__tab_tab. */
+/* .ajax__tab_tab - An element of the tab that contains the text content. Child CSS classes:none. */
+/* .ajax__tab_body - A container element that wraps the area where a TabPanel is displayed. Child CSS classes: none. */
+/* .ajax__tab_hover - This is applied to a tab when the mouse is hovering over. Child CSS classes:.ajax__tab_outer. */
+/* .ajax__tab_active - This is applied to a tab when it is the currently selected tab. Child CSS classes:.ajax__tab_outer. */
+
+/* XP IE7 theme - Backgrounds */
+
+.hindiBox
+{
+    background-color: #EDEFEF;
+    border-top: 1px solid #E4E6E6;
+}
+.hindi__tab_xpie7 .ajax__tab_header
+{
+    background: url(images/tab-line.gif) repeat-x bottom;
+}
+.hindi__tab_xpie7 .ajax__tab_outer
+{
+    background: url(images/tab-right.gif) no-repeat right;
+}
+.hindi__tab_xpie7 .ajax__tab_inner
+{
+    background: url(images/tab-left.gif) no-repeat;
+}
+.hindi__tab_xpie7 .ajax__tab_tab
+{
+    background: url(images/tab.gif) repeat-x;
+}
+.hindi__tab_xpie7 .ajax__tab_hover .ajax__tab_outer
+{
+    background: url(images/tab-hover-right.gif) no-repeat right;
+}
+.hindi__tab_xpie7 .ajax__tab_hover .ajax__tab_inner
+{
+    background: url(images/tab-hover-left.gif) no-repeat;
+}
+.hindi__tab_xpie7 .ajax__tab_hover .ajax__tab_tab
+{
+    background: url(images/tab-hover.gif) repeat-x;
+}
+.hindi__tab_xpie7 .ajax__tab_active .ajax__tab_outer
+{
+    background: url(images/tab-active-right.gif) no-repeat right;
+}
+.hindi__tab_xpie7 .ajax__tab_active .ajax__tab_inner
+{
+    background: url(images/tab-active-left.gif) no-repeat;
+}
+.hindi__tab_xpie7 .ajax__tab_active .ajax__tab_tab
+{
+    background: url(images/tab-active.gif) repeat-x;
+}
+
+/* XP IE7 theme - Other Styles */
+.hindi__tab_xpie7 .ajax__tab_header
+{
+    font-family: Mangal;
+    font-size: 12px;
+}
+.hindi__tab_xpie7 .ajax__tab_outer
+{
+    height: 29px;
+}
+.hindi__tab_xpie7 .ajax__tab_inner
+{
+    padding-left: 3px;
+}
+.hindi__tab_xpie7 .ajax__tab_tab
+{
+    padding: 8px 40px;
+    margin: 0;
+}
+.hindi__tab_xpie7 .ajax__tab_body
+{
+    font-family: Mangal, Trebuchet MS ;
+    font-size: 14px;
+    border: 1px solid #999999;
+    border-top: 0;
+    padding: 8px;
+    background-color: rgb(255, 243, 175);
+}
+
+

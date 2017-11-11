@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Templates_Master" %>
+
+<%@ Register Src="~/UserControls/Header.ascx" TagName="header" TagPrefix="site" %>
+<%@ Register Src="~/UserControls/Footer.ascx" TagName="footer" TagPrefix="site" %>
+<%@ Register Src="~/UserControls/Horizontal-Menu.ascx" TagName="horizontal" TagPrefix="menu" %>
+<%@ Register Src="~/UserControls/Left-Menu.ascx" TagName="left" TagPrefix="menu" %>
+<%@ Register Src="~/UserControls/Right-Menu.ascx" TagName="right" TagPrefix="menu" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Rajasthan State Office - Intranet</title>
+    <link rel="Stylesheet" href="../Style/General.css" type="text/css" />
+    <link rel="Stylesheet" href="../Style/VMenu/vertical-menu.css" type="text/css" />
+    <link rel="stylesheet" href="../Style/Slideshow/default/default.css" type="text/css"
+        media="screen" />
+    <link rel="stylesheet" href="../Style/Slideshow/nivo-slider.css" type="text/css"
+        media="screen" />
+    <link rel="Shortcut Icon" href="<%=VirtualPathUtility.ToAbsolute("~")%>/favicon.ico" />
+</head>
+<body onload="startclock(); startTyping(100, 'txtDestination');">
+    <form id="master" runat="server">
+    <div class="main">
+        <div id="header">
+            <%--HEADER--%>
+            <site:header ID="siteHeader" runat="server" />
+            <%--HORIZONTAL MENU--%>
+            <div class="clear hideSkiplink">
+                <menu:horizontal ID="horzMenu" runat="server" />
+            </div>
+            <%--ANNOUNCEMENT--%>
+            <table class="announcement">
+                <tr>
+                    <asp:HiddenField ID="hfAnnounce" runat="server" Value="Welcome to RSO Intranet Portal!" />
+                    <td id="txtDestination" class="annImg" />
+                </tr>
+            </table>
+        </div>
+        <div class="clear">
+        </div>
+        <div style="min-height: 420px; width: 100%">
+            <%--LEFT MENU--%>
+            <div class="leftCol" align="center">
+                <menu:left ID="menuLeft" runat="server" />
+                <a href="<%=VirtualPathUtility.ToAbsolute("~")%>/Pages/RSO-Locations.aspx" onmouseover="handleOver();return true;"
+                    onmouseout="handleOut();return true;">
+                    <img name="rajMap" src="<%=VirtualPathUtility.ToAbsolute("~")%>/Style/Images/rajasthan.gif"
+                        style="border: none;" title="Click to view RSO Location(s)" alt="rajasthanMap" /></a>
+                <br />
+            </div>
+            <%--MIDDLE COLUMN--%>
+            <div class="middleCol">
+                <asp:ContentPlaceHolder ID="cphMaster" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <%--RIGHT MENU--%>
+            <menu:right ID="menuRight" runat="server" />
+            <%--FOOTER--%>
+            <site:footer ID="siteFooter" runat="server" />
+        </div>
+    </div>
+    </form>
+    <script type="text/javascript" defer="defer" src="<%=VirtualPathUtility.ToAbsolute("~")%>/Style/Scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+Error at 11:33:37 AM
+In Page: http://localhost/intranet/Default.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 11:33:55 AM
+In Page: http://localhost/intranet/Admin/ISAdmin.aspx?lnk=Dashboard
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 11:34:24 AM
+In Page: http://localhost/intranet/Pages/Login.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+

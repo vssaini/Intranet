@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Department.master.cs" Inherits="Template_Department" %>
+
+<%@ Register Src="~/UserControls/Header.ascx" TagName="header" TagPrefix="site" %>
+<%@ Register Src="~/UserControls/Footer.ascx" TagName="footer" TagPrefix="site" %>
+<%@ Register Src="~/UserControls/UC-Dept-SideMenu.ascx" TagName="sidemenu" TagPrefix="dept" %>
+<%@ Register Src="~/UserControls/UC-Dept-Header.ascx" TagName="header" TagPrefix="dept" %>
+<%@ Register Src="~/UserControls/Horizontal-Menu.ascx" TagName="horizontal" TagPrefix="menu" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Rajasthan State Office - Intranet</title>
+    <link rel="Stylesheet" href="../Style/General.css" type="text/css" />
+    <link rel="Stylesheet" href="../Style/DeptMenu/dmenu.css" type="text/css" />
+    <link rel="Shortcut Icon" href="../favicon.ico" />
+</head>
+<body onload="startclock(); startTyping(100, 'txtDestination'); deptMenuClicked();">
+    <form id="master" runat="server">
+    <div class="main">
+        <div id="header">
+            <%--HEADER--%>
+            <site:header ID="siteHeader" runat="server" />
+            <%--HORIZONTAL MENU--%>
+            <div class="clear hideSkiplink">
+                <menu:horizontal ID="horzMenu" runat="server" />
+            </div>
+            <%--ANNOUNCEMENT--%>
+            <table class="announcement">
+                <tr>
+                    <asp:HiddenField ID="hfAnnounce" runat="server" Value="Welcome to RSO Intranet Portal!" />
+                    <td id="txtDestination" class="annImg" />
+                </tr>
+            </table>
+        </div>
+        <div class="clear">
+        </div>
+        <div style="min-height: 420px; width: 100%">
+            <asp:HiddenField ID="hfPage" runat="server" />
+            <%--LEFT VERTICAL MENU--%>
+            <div class="leftCol">
+                <dept:sidemenu ID="sideMenu" runat="server" />
+                <asp:HiddenField ID="hfMenu" runat="server" Value="sideMenu_hlHome" EnableViewState="true" />
+            </div>
+            <%--RIGHT SIDE--%>
+            <div class="deptRightColumn">
+                <div class="deptBg">
+                    <dept:header ID="deptHeader" runat="server" />
+                    <div class="deptContent">
+                        <asp:ContentPlaceHolder ID="cphMaster" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <%--FOOTER--%>
+            <site:footer ID="siteFooter" runat="server" />
+        </div>
+    </div>
+    </form>
+    <script type="text/javascript" defer="defer" src="<%=VirtualPathUtility.ToAbsolute("~")%>/Style/Scripts/script.js"></script>
+</body>
+</html>

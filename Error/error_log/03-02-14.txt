@@ -1,0 +1,72 @@
+Error at 21:33:06
+In Page: http://localhost/intranet/default.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 21:33:32
+In Page: http://localhost/intranet/Pages/Department/InformationSystem.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 21:33:49
+In Page: http://localhost/intranet/Default.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 21:33:57
+In Page: http://localhost/intranet/Pages/DistCalculator.aspx?index=5
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 21:34:18
+In Page: http://localhost/intranet/Pages/Holidays.aspx?type=RSO&index=4
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 21:34:29
+In Page: http://localhost/intranet/Pages/DistCalculator.aspx?index=5
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+

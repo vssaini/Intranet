@@ -1,0 +1,371 @@
+﻿/*------------------------------------------------------
+                    VERTICAL LEFT SIDE MENU
+-------------------------------------------------------*/
+.box3Left
+{
+    background-image: url(  'vl_images/band.gif' );
+    background-position: 0 -120px;
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 3px;
+}
+.box3Middle
+{
+    background-image: url(  'vl_images/band.gif' );
+    background-position: 0 -158px;
+    background-repeat: repeat-x;
+    height: 23px;
+    vertical-align: middle;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+.box3Right
+{
+    background-image: url(  'vl_images/band.gif' );
+    background-position: 0 -196px;
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 3px;
+}
+.box3LVBrdr
+{
+    border-left: solid 1px #AF7115;
+}
+.box3THBrdr
+{
+    border-top: solid 1px #AF7115;
+}
+.box3RVBrdr
+{
+    border-right: solid 1px #AF7115;
+}
+.box3HBrdr
+{
+    border-top: solid 1px #AF7115;
+}
+.box3BHBrdr
+{
+    border-bottom: solid 1px #AF7115;
+}
+.box3Background
+{
+    background-repeat: repeat-x;
+    background-color: #FCF8F2;
+    color: #463E3F;
+}
+
+.box3Column
+{
+    width: 300px;
+    height: 100%;
+    vertical-align: text-top;
+    padding: 3px 0 3px 3px;
+    text-align: left;
+    border-bottom: 1px solid Green;
+}
+
+.box3Column a
+{
+    width: 100%;
+    color: #463E3F;
+    text-decoration: none;
+    display: block;
+}
+
+.box3Column a:hover
+{
+    color: White;
+}
+
+.box3Column:hover
+{
+    background-color: #3399FF;
+    text-decoration: none;
+    width: 300px;
+    color: White;
+}
+
+.imgLft
+{
+    float: left;
+    padding-right: 5px;
+    border: none;
+}
+
+/*------------------------------------------------------
+                    NEWS FOR RSO EMPLOYEES BOX
+-------------------------------------------------------*/
+
+.box2Left
+{
+    background-image: url(  'vl_images/band.gif' );
+    background-position: 0 -240px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 5px;
+}
+.box2Middle
+{
+    background-image: url(  'vl_images/band.gif' );
+    background-position: 0 -278px;
+    background-repeat: repeat-x;
+    height: 25px;
+    vertical-align: middle;
+    text-align: left;
+    color: White;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+.box2Right
+{
+    background-image: url(  'vl_images/band.gif' );
+    background-position: 0 -316px;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 5px;
+}
+
+.box2LVBrdr
+{
+    border-left: solid 1px #5D8B4F;
+}
+.box2THBrdr
+{
+    border-top: solid 1px #5D8B4F;
+}
+.box2BHBrdr
+{
+    border-bottom: solid 1px #5D8B4F;
+}
+.box2RVBrdr
+{
+    border-right: solid 1px #5D8B4F;
+}
+.box2HBrdr
+{
+    border-top: solid 1px #5D8B4F;
+}
+.box2Background
+{
+    background: url(  'vl_images/pattern.gif' ) repeat;
+    height: 110px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.lnkHead a
+{
+    font-weight: bold;
+    color: #463E3F;
+}
+
+.lnkHead a:hover
+{
+    font-weight: bold;
+    color: #463E3F;
+}
+
+.lnkContent
+{
+    display: none;
+    padding: 0 25px 0 25px;
+    color: #463E3F;
+}
+
+.bullet
+{
+    vertical-align: top;
+    padding: 4px 4px 4px 8px;
+}
+
+.newsImg
+{
+    background: url('vl_images/newspaper.png') no-repeat bottom left;
+    width: 50px;
+}
+
+/*------------------------------------------------------
+                    HYPERLINK IMAGES
+-------------------------------------------------------*/
+
+.t2is
+{
+    background: url('vl_images/t2is.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.guru
+{
+    background: url('vl_images/guruji.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.ess
+{
+    background: url('vl_images/essu.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.medical
+{
+    background: url('vl_images/medical.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 17px;
+}
+
+.dar
+{
+    background: url('vl_images/dar.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 17px;
+}
+
+.fts
+{
+    background: url('vl_images/fts.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.mail
+{
+    background: url('vl_images/mail.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.epms
+{
+    background: url('vl_images/epms.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.eswayam
+{
+    background: url('vl_images/eswayam.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.webdoc
+{
+    background: url('vl_images/webdoc.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.iocnms
+{
+    background: url('vl_images/iocnms.png') bottom left no-repeat;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*------------------------------------------------------
+                    VERTICAL RIGHT SIDE MENU
+-------------------------------------------------------*/
+
+.header
+{
+    border-left: 1px solid #828282;
+    border-right: 1px solid #828282;
+    border-top: 1px solid #828282;
+    background: url('vr_images/normal.gif') repeat-x;
+    color: Navy;
+    height: 26px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.content
+{
+    border: 1px solid #828282;
+    height: 35px;
+    color: Green;
+    background-color: White;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.selected
+{
+    border-left: 1px solid #828282;
+    border-right: 1px solid #828282;
+    border-top: 1px solid #828282;
+    background: url('vr_images/selected.gif') repeat-x;
+    color: Blue;
+    height: 26px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.header:hover
+{
+    background: url('vr_images/hover.gif') repeat-x;
+}
+
+.essm
+{
+    background: url(vr_images/manual.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.download
+{
+    background: url(vr_images/download.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.telephone
+{
+    background: url(vr_images/telephone.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.information
+{
+    background: url(vr_images/information.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.holiday
+{
+    background: url(vr_images/holiday.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.distance
+{
+    background: url(vr_images/calculator.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.ip
+{
+    background: url(vr_images/ip.png) bottom left no-repeat;
+    text-align: right;
+    padding-left: 20px;
+}
+
+
+
+
+

@@ -1,0 +1,382 @@
+/*========================================
+            DEPARTMENT COMMON
+=========================================*/
+
+.deptHeader
+{
+    background: url('images/groupHeaderBg.gif') repeat-x;
+    width: 100%;
+    height: 23px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.deptContent
+{
+    padding: 3px 8px 5px 8px;
+    font-family: Verdana, Arial;
+    font-size: 8.5pt;
+    color: #393939;
+}
+
+.deptMenuBg
+{
+    border: 1px solid Gray;
+    background-color: #BBD9FF;
+    height: 400px;
+    width: 100%;
+}
+
+.deptMenu
+{
+    white-space: nowrap;
+    float: left;
+    position: relative;
+    text-align: left;
+    border: 0;
+    width: 100%;
+}
+
+.deptMenu .rmRootGroup
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    display: none;
+    width: 100%;
+}
+
+* html .deptMenu .rmRootGroup
+{
+    float: left;
+}
+
+.deptMenu ul.rmVertical, .deptMenu ul.rmHorizontal
+{
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: relative;
+    left: 0;
+    float: left;
+}
+
+.deptMenu .rmItem
+{
+    float: left;
+    position: relative;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style: none;
+}
+
+* html .deptMenu .rmItem
+{
+    display: inline;
+}
+
+.deptMenu .rmHorizontal .rmItem
+{
+    clear: none;
+}
+
+.deptMenu .rmVertical .rmItem
+{
+    clear: both;
+}
+
+.deptMenu ul.rmRootGroup
+{
+    display: block;
+    width: 100%;
+}
+
+.deptMenu .rmText
+{
+    display: block;
+    width: 140px; /* 100% (by default) Width of hovering: 140px;*/
+}
+
+.deptMenu a.rmLink
+{
+    cursor: default;
+    display: block;
+}
+
+.deptMenu .rmLink
+{
+    width: 100%; /*Blue background*/
+}
+
+.deptMenu div.rmRootGroup
+{
+    position: relative;
+}
+
+.deptMenu .rmItem
+{
+    padding: 0;
+}
+
+.deptMenu .rmLink
+{
+    padding: 2px 0 0 12px;
+    outline: 0;
+    float: left;
+}
+
+/* optimized for 16x16 */
+.deptMenu .rmLeftImage
+{
+    margin: 4px 2px 0 -3px;
+    padding-bottom: 4px;
+}
+
+.deptMenu .rmVertical .rmLeftImage + .rmText
+{
+    padding: 0 8px 1px 24px;
+}
+
+.deptMenu .rmVertical .rmText
+{
+    padding: 0 15px 1px 0;
+}
+
+.deptMenu .rmHorizontal .rmText
+{
+    padding: 0 12px 1px 0;
+}
+
+.deptMenu .rmVertical .rmText
+{
+    display: block;
+    float: none;
+}
+
+.deptMenu .rmVertical .rmLink
+{
+    float: none;
+}
+
+* html .deptMenu .rmGroup .rmVertical .rmLink, * html .deptMenu .rmGroup .rmHorizontal .rmLink
+{
+    float: left;
+}
+
+.deptMenu .rmHorizontal .rmText
+{
+    padding: 0 11px 0 10px;
+}
+
+
+/*=================================
+        DEPARTMENT HEADER STYLE
+=================================== */
+
+.deptBg
+{
+    background: url('Images/pattern.png') repeat-x;
+    border: 1px solid Gray;
+    background-color: #BBD9FF;
+    min-height: 400px;
+    width: 100%;
+}
+
+.dept
+{
+    background: url('Images/deptHdr.gif') repeat-x;
+    width: 100%;
+    height: 30px;
+    font-size: 13px;
+}
+
+.leftColn
+{
+    color: Black;
+    font-weight: bold;
+    float: left;
+    width: 30%;
+    padding: 5px 5px 5px 7px;
+}
+
+.rightColn
+{
+    float: right;
+    width: 58%;
+    text-align: right;
+    padding: 5px 7px 5px 5px;
+}
+
+
+/* START Office2007 css */
+
+.deptMenu_Office2007 .rmRootGroup, .deptMenu_Office2007 a.rmLink, .deptMenu_Office2007 .rmText, .deptMenu_Office2007 a.rmLinks
+{
+    background-image: url('images/office7.jpeg');
+    background-color: transparent;
+}
+
+.deptMenu_Office2007 .rmRootGroup
+{
+    /*borders: 1px solid #688caf;*/
+    background-repeat: repeat-x;
+    background-position: 0 -408px;
+    background-color: #BBD9FF;
+}
+
+.deptMenu_Office2007, .deptMenu_Office2007 a.rmLink
+{
+    font: normal 12px/23px "Segoe UI" , Arial, sans-serif;
+    color: #00156e;
+    text-decoration: none;
+}
+
+.deptMenu_Office2007 a.rmLink, .deptMenu_Office2007 .rmText
+{
+    background-position: 0 1050px;
+    background-repeat: no-repeat;
+}
+
+.deptMenu_Office2007 a.rmLink:hover
+{
+    color: #000;
+    background-position: 0 -70px;
+    cursor: pointer;
+}
+
+.deptMenu_Office2007 a.rmLink:hover .rmText
+{
+    background-position: 100% -96px;
+}
+
+/*==================================
+            TELERIK GREEN
+====================================*/
+
+.adminMenuBg
+{
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;    
+    width: 100%;
+}
+
+.adminMenu_Green .rmRootGroup, .adminMenu_Green a.rmLink, .adminMenu_Green .rmText, .adminMenu_Green a.rmLinks
+{
+    background-image: url('images/Green.jpeg');
+    background-color: transparent;
+}
+
+.adminMenu_Green .rmRootGroup
+{
+    /* border: 1px solid #828282;*/
+    background-repeat: repeat-x;
+    background-position: 0 500px;
+    background-color: White;
+}
+
+.adminMenu_Green, .adminMenu_Green a.rmLink
+{
+    font: normal 12px/23px "Segoe UI" , Arial, sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.adminMenu_Green a.rmLink, .adminMenu_Green .rmText
+{
+    background-position: 0 500px;
+    background-repeat: no-repeat;
+}
+
+.adminMenu_Green a.rmLink:hover
+{
+    color: #000;
+    background-position: 0 -166px;
+    cursor: pointer;
+}
+
+.adminMenu_Green a.rmLink:hover .rmText
+{
+    background-color: #FFFFFF;
+    background-position: 100% -192px;
+    
+}
+
+/*=====================================
+    SELECTED MENU
+=====================================*/
+
+.deptMenu_Office2007 a.rmLinks
+{
+    width: 100%;
+    padding: 2px 0 0 12px;
+    outline: 0;
+    float: left;
+    color: Black;
+    text-decoration: none;
+    background-position: 0 -119px;
+}
+
+.deptMenu_Office2007 a.rmLinks .rmText
+{
+    background-position: 100% -145px;
+}
+
+.adminMenu_Green a.rmLinks
+{
+    width: 100%;
+    padding: 2px 0 0 12px;
+    outline: 0;
+    float: left;
+    color: Black;
+    text-decoration: none;
+    background-position: 0 -166px;    
+}
+
+.adminMenu_Green a.rmLinks .rmText
+{
+    background-color: #FFFFFF;
+    background-position: 100% -192px;
+}
+
+
+/*==============================================
+            ADMIN PAGES
+==============================================*/
+
+.greenLeft
+{
+    background-image: url(   'images/gr_curve_left.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 6px;
+}
+
+.greenMiddle
+{
+    background-image: url('Images/gr_table_bg.gif');
+    background-repeat: repeat-x;
+    height: 23px;
+    vertical-align: middle;
+    text-align: left;
+    color: White;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.greenRight
+{
+    background-image: url(   'images/gr_curve_right.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 138px;
+}
+
+.adminImg
+{
+    background: url('Images/admin.png') no-repeat bottom left;
+    width: 30px;
+    font-family: Trebuchet MS;
+}

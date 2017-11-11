@@ -1,0 +1,84 @@
+Error at 7:52:57 PM
+In Page: http://localhost/intranet/Default.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 7:53:11 PM
+In Page: http://localhost/intranet/Pages/Department/InformationSystem.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 7:53:15 PM
+In Page: http://localhost/intranet/Pages/Department/Common/UploadedFiles.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 7:54:14 PM
+In Page: http://localhost/intranet/Pages/Department/RetailSales.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 7:54:16 PM
+In Page: http://localhost/intranet/Pages/Department/Common/DeptAdmin.aspx
+Message: Could not create Windows user token from the credentials specified in the config file. Error from the operating system 'Logon failure: unknown user name or bad password.
+' (D:\Web$ite\Intranet\web.config line 24)
+More Details:   at System.Web.Configuration.IdentitySection.InitializeToken()
+   at System.Web.Configuration.IdentitySection.get_ImpersonateToken()
+   at System.Web.Configuration.IdentitySection.ValidateCredentials()
+   at System.Web.Configuration.IdentitySection.GetRuntimeObject()
+   at System.Configuration.RuntimeConfigurationRecord.GetRuntimeObjectWithRestrictedPermissions(ConfigurationSection section)
+   at System.Configuration.RuntimeConfigurationRecord.GetRuntimeObject(Object result)
+=============================================================================================================================
+
+Error at 7:54:20 PM
+In Page: http://localhost/intranet/Pages/Department/PPES.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 7:54:21 PM
+In Page: http://localhost/intranet/Pages/Department/Common/XcelViewer.aspx?xcelFile=~/Documents/Highlights/Sales and Marketing Monthwise.xls&menu=sales
+Message: Could not create Windows user token from the credentials specified in the config file. Error from the operating system 'Logon failure: unknown user name or bad password.
+' (D:\Web$ite\Intranet\web.config line 14)
+More Details:   at System.Web.Configuration.IdentitySection.InitializeToken()
+   at System.Web.Configuration.IdentitySection.get_ImpersonateToken()
+   at System.Web.Configuration.IdentitySection.ValidateCredentials()
+   at System.Web.Configuration.IdentitySection.GetRuntimeObject()
+   at System.Configuration.RuntimeConfigurationRecord.GetRuntimeObjectWithRestrictedPermissions(ConfigurationSection section)
+   at System.Configuration.RuntimeConfigurationRecord.GetRuntimeObject(Object result)
+=============================================================================================================================
+

@@ -1,0 +1,58 @@
+﻿body
+{
+	background: #fff;
+	font: 85% Trebuchet MS, Arial, Helvetica, Sans-Serif;
+	color: #333;
+	background-color:white;	
+}
+
+#main
+{
+	padding-left:120px;
+	padding-right:120px;	
+}
+
+.header
+{
+	background-image: url('cloud.png');
+	background-repeat: no-repeat;
+	height: 100px;		
+}
+
+.heading
+{
+	font-weight: bold;
+	padding-top: 30px;
+	color: Navy;
+	font-size: 30px;
+	text-align: center;
+}
+
+hr
+{
+	background-image:url('multicolored_rule.jpg');
+	background-repeat:no-repeat;
+	height:3px;
+}
+
+.body
+{
+	background-image: url('yellow.jpg');
+	background-repeat: repeat;	
+	height:400px;
+}
+
+.advertisement
+{	
+	background-image: url('Stimulsoft_Reports_768x90.gif');
+	background-repeat: no-repeat;
+	height: 100px;	
+}
+
+#center
+{
+	padding-left:10px;
+	padding-right:10px
+}
+
+

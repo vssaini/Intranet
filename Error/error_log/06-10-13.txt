@@ -1,0 +1,48 @@
+Error at 9:08:16 AM
+In Page: http://localhost/intranet/Default.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 9:08:39 AM
+In Page: http://localhost/intranet/Pages/Department/InformationSystem.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 9:08:42 AM
+In Page: http://localhost/intranet/Pages/Department/Common/UploadedFiles.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+
+Error at 9:08:48 AM
+In Page: http://localhost/intranet/Pages/Department/Common/DeptAdmin.aspx
+Message: The server is not operational.
+
+More Details:   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.DirectorySearcher.FindAll(Boolean findMoreThanOne)
+   at System.DirectoryServices.DirectorySearcher.FindOne()
+   at AD.ADExists(String adUser, String adPass)
+=============================================================================================================================
+

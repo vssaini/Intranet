@@ -1,0 +1,1365 @@
+﻿/*==================================================
+           I. GENERAL CSS 
+==================================================*/
+body
+{
+    font-family: Trebuchet MS, Arial;
+    font-size: 85%;
+    margin: 0;
+    padding: 0 0px 0 0px;
+    width: 99%;
+}
+
+a
+{
+    text-decoration: none;
+    color: Gray;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #463E3F;
+}
+
+.ulImage
+{
+    list-style-image: url('Images/arrow.gif');
+}
+
+.ulImage a
+{
+    text-decoration: none;
+    color: Green;
+}
+
+.ulImage a:hover
+{
+    text-decoration: underline;
+    color: #1589FF;
+}
+
+
+.anch
+{
+    font-size: 95%;
+    font-weight: bold;
+    color: Gray;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+#header
+{
+    width: 100%;
+    background-image: url(    ' Images/logo_bg.gif' );
+    background-repeat: repeat-x;
+    padding-bottom: 5px;
+}
+
+/*download font-family*/
+@font-face 
+{
+    font-family: Old English Text MT;
+    src: url('Fonts/old-english-text-mt.eot');    
+}
+
+.intranet
+{
+    font-family: Old English Text MT, Century, Corbel;
+    color: #3399FF;
+    font-size: 60px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+#footer
+{
+    background: url(    ' Images/footer_bg.gif' ) repeat-x;
+    padding: 10px 5px 0 5px;
+    margin-top: 5px;
+    color: #463E3F;
+    font-weight: bold;
+    font-size: 98%;
+}
+
+.leftCol
+{
+    float: left;
+    width: 17%;
+    padding-left: 2px;
+}
+
+.middleCol
+{
+    float: left;
+    width: 65%;
+    padding-left: 4px;
+}
+
+.rightCol
+{
+    float: right;
+    width: 17%;
+    padding-right: 1px;
+}
+
+.main
+{
+    background-color: rgb(230, 255, 191);
+    width: 100%;
+    padding: 1px 3px 3px 3px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.logotable
+{
+    height: 75px;
+    background-image: url(     'Images/logo_bg.gif' );
+}
+
+.inform
+{
+    background: url('Images/inform.gif' ) repeat-x;
+    text-align: center;
+    border: 1px solid orange;
+    padding: 3px 5px 3px 5px;
+    width: 60%;
+    height: 15px;
+    font-family: Consolas;
+}
+.cph
+{
+    height: 400px;
+    min-height: 400px;
+    padding-top: 5px;
+    max-height: 410px;
+    overflow: auto;
+}
+
+div.hideSkiplink
+{
+    background-color: rgb(195, 217, 255); /*Blue color*/
+    width: 100%;
+    height: 33px;
+}
+
+.footInfo
+{
+    font-family: Consolas;
+    font-size: 11px;
+    color: Blue;
+}
+
+.time
+{
+    padding-top: 8px;
+    color: #463E3F;
+}
+
+.rjmap
+{
+    background: url('Images/rajasthan.gif') no-repeat;
+    height: 500px;
+}
+
+.rjmap:hover
+{
+    background: url('Images/rajasthanhover.gif') no-repeat;
+}
+
+.imgNoBorder
+{
+    border: none;
+}
+
+/*----------------------------------------------
+                ANNOUNCEMENT
+-----------------------------------------------*/
+
+.announcement
+{
+    background: url('Images/ann_bg.gif') repeat-x;
+    padding: 2px 10px 2px 10px;
+    margin-top: 2px;
+    font: 14px Corbel;
+    width: 100%;
+    color: Yellow;
+}
+
+.annImg
+{
+    background: url('Images/announce.png') no-repeat bottom left;
+    width: 100%;
+    padding-left: 30px;
+}
+
+/*----------------------------------------------
+                PAGES
+-----------------------------------------------*/
+
+.insideCol
+{
+    padding: 3px 5px 3px 5px;
+}
+
+.comCol
+{
+    padding-top: 23px;
+    width: 100%;
+}
+
+.deptRightColumn
+{
+    float: right;
+    width: 82%;
+    padding-right: 1px;
+}
+
+/*================================================
+           II. HORIZONTAL MENU CSS 
+==================================================*/
+
+
+#pcm
+{
+    display: none;
+}
+ul.pureCssMenu ul
+{
+    display: none;
+}
+ul.pureCssMenu li:hover > ul
+{
+    display: block;
+}
+ul.pureCssMenu ul
+{
+    position: absolute;
+    left: -1px;
+    top: 98%;
+}
+ul.pureCssMenu ul ul
+{
+    position: absolute;
+    left: 98%;
+    top: -2px;
+}
+ul.pureCssMenu, ul.pureCssMenu ul
+{
+    margin: 0px;
+    list-style: none;
+    padding: 0px 2px 2px 0px;
+    background-color: #fff;
+    background-repeat: repeat;
+    border-color: #808080;
+    border-width: 1px;
+    border-style: solid;
+}
+ul.pureCssMenu table
+{
+    border-collapse: collapse;
+}
+ul.pureCssMenu
+{
+    display: block;
+    height: 21px;
+    float: left;
+}
+ul.pureCssMenu ul
+{
+    width: 134.4px;
+}
+ul.pureCssMenu li
+{
+    display: block;
+    margin: 2px 0px 0px 2px;
+    font-size: 0px;
+}
+ul.pureCssMenu a:active, ul.pureCssMenu a:focus
+{
+    outline-style: none;
+}
+ul.pureCssMenu a, ul.pureCssMenu li.dis a:hover, ul.pureCssMenu li.sep a:hover
+{
+    display: block;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    border-width: 1px;
+    border-color: #fff;
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 5px 5px 10px;
+    _padding-left: 0;
+    font: normal 11px Tahoma;
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+}
+ul.pureCssMenu span
+{
+    overflow: hidden;
+}
+ul.pureCssMenu li
+{
+    float: left;
+}
+ul.pureCssMenu ul li
+{
+    float: none;
+}
+ul.pureCssMenu ul a
+{
+    text-align: left;
+    white-space: nowrap;
+}
+ul.pureCssMenu li.sep
+{
+    text-align: left;
+    padding: 0px;
+    line-height: 0;
+    height: 100%;
+}
+ul.pureCssMenu li.sep span
+{
+    float: none;
+    padding-right: 0;
+    width: 3px;
+    height: 100%;
+    display: inline-block;
+    background-color: #808080;
+    background-image: none;
+}
+ul.pureCssMenu ul li.sep span
+{
+    width: 100%;
+    height: 3px;
+}
+ul.pureCssMenu li:hover
+{
+    position: relative;
+}
+ul.pureCssMenu li:hover > a
+{
+    background-color: #DBF0F9;
+    border-color: #45ADE4;
+    border-style: solid;
+    font: normal 11px Tahoma;
+    color: #444;
+    text-decoration: none;
+}
+ul.pureCssMenu li a:hover
+{
+    position: relative;
+    background-color: #DBF0F9;
+    border-color: #45ADE4;
+    border-style: solid;
+    font: normal 11px Tahoma;
+    color: #444;
+    text-decoration: none;
+}
+ul.pureCssMenu li.dis a
+{
+    color: #557D4F !important;
+}
+ul.pureCssMenu img
+{
+    border: none;
+    float: left;
+    _float: none;
+    margin-right: 2px;
+    width: 16px;
+    height: 16px;
+}
+ul.pureCssMenu ul img
+{
+    width: 16px;
+    height: 16px;
+}
+ul.pureCssMenu img.over
+{
+    display: none;
+}
+ul.pureCssMenu li.dis a:hover img.over
+{
+    display: none !important;
+}
+ul.pureCssMenu li.dis a:hover img.def
+{
+    display: inline !important;
+}
+ul.pureCssMenu li:hover > a img.def
+{
+    display: none;
+}
+ul.pureCssMenu li:hover > a img.over
+{
+    display: inline;
+}
+ul.pureCssMenu a:hover img.over, ul.pureCssMenu a:hover ul img.def, ul.pureCssMenu a:hover a:hover ul img.def, ul.pureCssMenu a:hover a:hover a:hover ul img.def, ul.pureCssMenu a:hover a:hover img.over, ul.pureCssMenu a:hover a:hover a:hover img.over, ul.pureCssMenu a:hover a:hover a:hover a:hover img.over
+{
+    display: inline;
+}
+ul.pureCssMenu a:hover img.def, ul.pureCssMenu a:hover ul img.over, ul.pureCssMenu a:hover a:hover ul img.over, ul.pureCssMenu a:hover a:hover a:hover ul img.over, ul.pureCssMenu a:hover a:hover img.def, ul.pureCssMenu a:hover a:hover a:hover img.def, ul.pureCssMenu a:hover a:hover a:hover a:hover img.def
+{
+    display: none;
+}
+ul.pureCssMenu a:hover ul, ul.pureCssMenu a:hover a:hover ul, ul.pureCssMenu a:hover a:hover a:hover ul
+{
+    display: block;
+}
+ul.pureCssMenu a:hover ul ul, ul.pureCssMenu a:hover a:hover ul ul
+{
+    display: none;
+}
+ul.pureCssMenu span
+{
+    display: block;
+    background-image: url('Images/arrv_white.gif');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 9px;
+}
+ul.pureCssMenu ul span
+{
+    background-image: url('Images/arr_black.gif');
+}
+ul.pureCssMenu ul li:hover > a span
+{
+    background-image: url('Images/arr_white.gif');
+}
+ul.pureCssMenu table a:hover span, ul.pureCssMenu table a:hover a:hover span, ul.pureCssMenu table a:hover a:hover a:hover span
+{
+    background-image: url('Images/arr_white.gif');
+}
+ul.pureCssMenu table a:hover table span, ul.pureCssMenu table a:hover a:hover table span
+{
+    background-image: url('Images/arr_black.gif');
+}
+ul.pureCssMenu li.pureCssMenui0
+{
+    width: 110px;
+    height: 23px;
+    z-index: 10000; /*Element with greater stack order is in front of lower order element*/
+}
+ul.pureCssMenu li a.pureCssMenui0
+{
+    height: 100%;
+    background-image: url('Images/btn3.jpg');
+    border-width: 0px;
+    font: normal 11px Tahoma;
+    color: #fff;
+}
+ul.pureCssMenu li a.pureCssMenui0:hover
+{
+    background-image: url('Images/btn4.jpg');
+    font: normal 11px Tahoma;
+    color: #eee;
+}
+ul.pureCssMenum0
+{
+    background-color: transparent;
+    border-width: 0px;
+    padding: 0px 0px 0px 0px;
+}
+ul.pureCssMenum0 > li > a
+{
+    padding: 8px 10px 0px 10px;
+}
+ul.pureCssMenum0 a
+{
+    padding: 8px 10px 0px 10px;
+}
+ul.pureCssMenum0 ul a
+{
+    padding: 2px 5px 5px 10px;
+}
+ul.pureCssMenum0 > li
+{
+    margin: 0px 0px 0px 0px;
+}
+ul.pureCssMenum0 li
+{
+    margin: 0px 0px 0px 0px;
+}
+ul.pureCssMenum0 li li
+{
+    margin: 2px 0px 0px 2px;
+}
+
+
+/*================================================
+           III. PAGE COMMON CSS 
+==================================================*/
+
+.pdfLabel
+{
+    background: url('Images/Label-bg.png') repeat-x;
+    padding: 4px 0 1px 0;
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid orange;
+    color: White;
+}
+
+.bgYellow
+{
+    background: url('Images/yellowbg.jpg' ) repeat-x;
+    text-align: center;
+    border: 1px solid orange;
+    padding: 0 5px 0 5px;
+}
+
+.bgBlack
+{
+    background: url('Images/bg_black.gif') repeat-x;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Consolas;
+    text-align: center;
+    display: block;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 3px;
+}
+
+/*=================================
+            GRIDVIEW STYLE
+=================================== */
+
+.grid
+{
+    border: 1px solid Gray;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+}
+
+.grdHeader
+{
+    background-color: #FF9933;
+    color: White;
+    height: 25px;
+    font-weight: bolder;
+}
+
+.grdRow
+{
+    background-color: #CCFFFF;
+    height: 23px;
+}
+
+.grdRowx:hover
+{
+    background-color: #FFFFCC;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.gvheader
+{
+    background: url('Images/header.png') repeat-x;
+    color: #01354d;
+    height: 25px;
+    color: White;
+}
+
+/* Row - Normal state */
+.gvRow
+{
+    background-image: url('Images/rowNormal.png');
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 23px;
+    color: Green;
+}
+
+.gvRow:hover
+{
+    background-image: url('Images/rowHover.gif');
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 23px;
+    color: Black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rows
+{
+    background-color: #E6E6E6;
+    height: 23px;
+}
+.alts
+{
+    background-color: #F2F2F2;
+    height: 23px;
+}
+
+.gvRow a
+{
+    color: Green;
+}
+
+.gvRow a:hover
+{
+    color: Black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pager
+{
+    background: url('Images/pager.gif') repeat-x;
+    color: White;
+    font-weight: bold;
+}
+
+.empty
+{
+    background: #F88017 url('Images/empty.gif') repeat-x;
+    border: 1px solid white;
+    height: 28px;
+    font: normal bold 13px Trebuchet MS;
+    color: White;
+}
+
+/*=================================
+        LOGIN BOX STYLE
+=================================== */
+
+.login
+{
+    font: .9em Verdana;
+    color: #333333;
+    width: 70%;
+}
+
+.lblSize
+{
+    font-size: 1em;
+}
+
+.lftMrgn
+{
+    margin-left: 5px;
+}
+
+.loginFail
+{
+    color: Red;
+    font-size: .9em;
+}
+
+.loginUTxt
+{
+    background-color: #FFFFCC;
+    font-size: 1.1em;
+    font-family: Calibri;
+    width: 180px;
+}
+
+.loginPTxt
+{
+    background-color: #FFFFCC;
+    font-size: 1.1em;
+    width: 180px;
+}
+
+/*=================================
+       IS ADMIN STYLES
+=================================== */
+.pnlBrdr
+{
+    padding: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+    font-size: .9em;
+}
+
+.adminTxt
+{
+    color: #000033;
+    background-color: #FFE58A;
+    font-size: 1.1em;
+    font-family: Calibri, Consolas;
+    width: 150px;
+}
+
+.adImg
+{
+    left: 5px;
+    background-image: url('Images/user_edit.png');
+}
+
+.upImg
+{
+    left: 5px;
+    background-image: url('Images/upload.png');
+}
+
+.saveImg
+{
+    left: 5px;
+    background-image: url('Images/save.gif');
+}
+
+.dbImg
+{
+    left: 5px;
+    background-image: url('Images/db-gallery.png');
+}
+
+.holiImg
+{
+    left: 5px;
+    background-image: url('Images/holi.png');
+}
+
+.statusBG
+{
+    background: url('Images/search-center.jpg') repeat-x;
+    height: 20px;
+    display: block;
+    vertical-align: baseline;
+    color: Blue;
+}
+
+.annTxt
+{
+    background-color: #DFF3FF;
+    font-size: 1.1em;
+    font-family: Calibri, Consolas;
+    width: 100%;
+    height: 50px;
+}
+
+/*==========================================
+        ADMIN BUTTON STYLES
+===========================================*/
+.AdminButton, .rbDecorated
+{
+    font-family: "Segoe UI" ,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+.AdminButton img
+{
+    border: 0 none;
+}
+
+.rbSkinnedButton
+{
+    background-color: transparent;
+    background-position: right 0;
+    background-repeat: no-repeat;
+    border: 0 none;
+    display: inline-block;
+    height: 22px;
+    padding-right: 4px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.rbDecorated
+{
+    background-color: transparent;
+    background-position: left -22px;
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 22px;
+    outline: medium none;
+    overflow: visible;
+    padding-left: 10px;
+    padding-right: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+* + html .rbDecorated
+{
+    line-height: 22px;
+    padding-right: 8px;
+}
+.rbSkinnedButton:hover
+{
+    background-position: right -44px;
+}
+.rbSkinnedButton:hover .rbDecorated
+{
+    background-position: left -66px;
+}
+.rbSkinnedButton:focus, .rbSkinnedButton:active
+{
+    background-position: right -88px;
+}
+.rbSkinnedButton:focus .rbDecorated, .rbSkinnedButton:active .rbDecorated
+{
+    background-position: left -110px;
+}
+
+.AdminButton .rbPrimary
+{
+    padding-left: 25px;
+}
+
+.rbPrimaryIcon
+{
+    background-repeat: no-repeat;
+    cursor: default;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    width: 16px;
+}
+.AdminButton, .AdminButton .rbPrimaryIcon
+{
+    cursor: pointer;
+}
+.rbPrimaryIcon
+{
+    left: 4px;
+    top: 3px;
+}
+
+.rbPrimaryIcon
+{
+    left: 5px;
+}
+
+/*==============================================
+        SET RESPECTIVE IMAGES OF BUTTONS
+================================================*/
+.Office2010Silver.rbSkinnedButton, .Office2010Silver .rbDecorated
+{
+    background-image: url('Images/ButtonSprites.gif');
+}
+.Office2010Silver .rbDecorated
+{
+    color: #3B3B3B;
+}
+
+.Green.rbSkinnedButton, .Green .rbDecorated
+{
+    background-image: url('Images/ButtonSpritesTelerik.gif');
+}
+.Green .rbDecorated
+{
+    color: #3B3B3B;
+}
+
+/*===========================================
+        ADMIN PAGE RIGHT SIDE STYLES
+============================================*/
+
+.infoPanel
+{
+    background: url("Images/infoPanel.gif") repeat-x scroll 0 0 #FFF3C8;
+    border: 1px solid #FFE58A;
+    padding: 1px 0 1px 1px;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.lblPadding
+{
+    padding: 6px 5px 2px 10px;
+    font-family: Calibri;
+}
+
+.infoImg
+{
+    background: url("Images/exclamation.png") no-repeat;
+    padding-left: 20px;
+}
+
+.tablebg
+{
+    border: 1px solid #BDD3F0;
+    width: 100%;
+}
+
+.tblbg
+{
+    border: 1px solid #67BA38;
+    width: 100%;
+}
+
+.topstripbg
+{
+    background: url("Images/topstripbg1.gif") repeat-x;
+    border-bottom: 1px solid #A3C3EA;
+    height: 24px;
+}
+
+.topstripgreen
+{
+    background: #E7FED6 url("Images/dasborad-domain-bg") repeat-x;
+    border-bottom: 1px solid #67BA38;
+    height: 24px;
+    width: 33%;
+}
+
+.bodyboldmediumwhite
+{
+    color: #234C71;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.lCol
+{
+    float: left;
+    width: 49%;
+    padding-bottom: 10px;
+}
+
+.rCol
+{
+    float: right;
+    width: 49%;
+    padding-bottom: 10px;
+}
+
+.padTbl
+{
+    padding: 5px 5px 5px 5px;
+}
+
+.padDept
+{
+    padding: 4px 5px 4px 5px;
+}
+
+.allPad
+{
+    padding: 4px 5px 4px 5px;
+}
+
+.padDept:hover
+{
+    background-color: #FFF8C6;
+}
+
+.brdBottom
+{
+    border-bottom: 1px solid #E6F4D8;
+    text-align: center;
+}
+
+.brdRight
+{
+    border-right: 1px solid #E6F4D8;
+}
+
+/*====================================
+STYLES FOR GRIDVIEW IN DEPARTMENT ADMIN
+=====================================*/
+
+.grdDeptAdmin
+{
+    border: 1px solid #67BA38;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+}
+
+.deptheader
+{
+    background: #E7FED6 repeat-x;
+    height: 25px;
+    width: 33%;
+}
+
+.grdDeptAdmin tr td
+{
+    padding: 4px 5px 4px 5px;
+    border-top: 1px solid #E6F4D8;
+}
+
+.DeptAdminBg
+{
+    border: 1px solid #67BA38;
+    background: #FFF8C6;
+    font-family: "Segoe UI" ,Arial,Helvetica,sans-serif;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.padAll
+{
+    padding: 7px 10px 7px 10px;
+}
+
+.ddlStyle
+{
+    font-family: Calibri;
+}
+
+.lblAdmin
+{
+    padding-bottom: 10px;
+}
+
+/*====================================
+STYLES FOR FILE UPLOADER
+=====================================*/
+
+#divFileUpload input
+{
+    background-color: #E6F4D8;
+    border: 1px inset #618740;
+    color: #0E2377;
+    font-family: Consolas;
+    width: 300px;
+}
+
+.file
+{
+    color: #0E2377;
+    font-family: Consolas;
+}
+
+.txtfile
+{
+    color: #424242;
+    font-family: Consolas;
+}
+
+#dvUpload.Img
+{
+    background-image: url("Images/inbox-upload.png");
+}
+
+#dvUpload.acl
+{
+    background-image: url("Images/arrow-curve.png");
+}
+
+#dvUpload
+{
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    line-height: 17px;
+    padding-left: 30px;
+}
+
+#dvDelete.Img
+{
+    background-image: url("Images/trash.png");
+}
+
+#dvDelete.acdl
+{
+    background-image: url("Images/arrow-curve-double.png");
+}
+
+#dvDelete
+{
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    line-height: 17px;
+    padding-left: 30px;
+}
+
+
+.Information
+{
+    background-color: #E5F7D5;
+    border: 1px solid #5AAD0D;
+    padding: 2px 5px 2px 5px;
+    font-size: 12px;
+    font-family: Trebuchet MS;
+}
+
+.deptBlank
+{
+    padding: 3px 5px 3px 5px;
+    background-color: ThreeDFace;
+}
+
+.uplFile
+{
+    padding: 0 0 10px 0;
+    color: Blue;
+}
+
+.deptUpl
+{
+    padding: 10px 0 10px 0;
+}
+
+.silverlight
+{
+    position: relative;
+    z-index: 1;
+}
+
+.ddlStyle
+{
+    font-family: Calibri, Consolas;
+    width: 158px;
+}
+
+.fontNormal
+{
+    font-size: 9.3pt;
+    color: #393939;
+}
+
+
+/*================================================
+=================================================
+        IV. LOGIN AND ADMINISTRATOR PAGES
+=================================================
+==================================================*/
+
+/*----------------------------------------------------
+                LOGIN PAGE
+-----------------------------------------------------*/
+.brownLeft
+{
+    background-image: url(   'images/brown_curve_left.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 6px;
+}
+
+.brownMiddle
+{
+    background-image: url('Images/brown_table_bg.gif');
+    background-repeat: repeat-x;
+    height: 23px;
+    vertical-align: middle;
+    text-align: left;
+    color: White;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.brownRight
+{
+    background-image: url(   'images/brown_curve_right.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 138px;
+}
+
+.grayBox
+{
+    min-height: 410px;
+    padding: 5px 5px 5px 5px;
+    background-repeat: repeat-x;
+    background-color: #F4F4F4;
+    border: 1px solid #E0E0E0;
+}
+
+.loginGrayBox
+{
+    min-height: 325px;
+    padding: 5px 5px 5px 5px;
+    background-repeat: repeat-x;
+    background-color: #F4F4F4;
+    border: 1px solid #E0E0E0;
+}
+
+.padBottom
+{
+    padding-bottom: 25px;
+}
+
+.loginImg
+{
+    background: url('Images/login-lock.png') no-repeat bottom left;
+    width: 30px;
+    font-family: Trebuchet MS;
+}
+
+.padLeft
+{
+    padding-left: 30px;
+}
+
+.iboxLC
+{
+    background-image: url(   'images/gray_left_curve.gif' );
+    background-repeat: no-repeat;
+    height: 6px;
+    background-position: left bottom;
+}
+
+.iboxTL
+{
+    background-image: url(   'images/gray_top_bgline.gif' );
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 6px;
+    background-position: center bottom;
+}
+
+.iboxRC
+{
+    background-image: url(   'images/gray_right_curve.gif' );
+    background-repeat: no-repeat;
+    height: 6px;
+    background-position: left bottom;
+}
+
+.iboxRL
+{
+    background-image: url(   'images/gray_right_bgline.gif' );
+    background-repeat: repeat;
+    width: 6px;
+    padding-right: 6px;
+}
+
+.iboxLL
+{
+    background-image: url(   'images/gray_left_bgline.gif' );
+    background-repeat: repeat;
+    width: 6px;
+    padding-left: 6px;
+}
+
+.iboxBG
+{
+    background-color: #FAFFF7;
+    height: auto;
+    margin: 2px 2px 2px 2px;
+    padding-top: 15px;
+}
+
+.iboxBLC
+{
+    background-image: url(   'images/gray_botleft_curve.gif' );
+    background-repeat: no-repeat;
+    height: 6px;
+    background-position: left bottom;
+}
+
+.iboxBRC
+{
+    background-image: url(   'images/gray_botright_curve.gif' );
+    background-repeat: no-repeat;
+    height: 6px;
+    background-position: left bottom;
+}
+
+.iboxBL
+{
+    background-image: url(   'images/gray_bot_bgline.gif' );
+    background-repeat: repeat-x;
+}
+
+/*------------------------------------------------------
+                   IS ADMIN
+-------------------------------------------------------*/
+.blueLeft
+{
+    background-image: url(   'images/blue_curve_left.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 6px;
+}
+
+.blueMiddle
+{
+    background-image: url('Images/blue_table_bg.gif');
+    background-repeat: repeat-x;
+    height: 23px;
+    vertical-align: middle;
+    text-align: left;
+    color: White;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.blueRight
+{
+    background-image: url(   'images/blue_curve_right.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 138px;
+}
+
+
+
+/*------------------------------------------------------
+                    GENERAL PAGES
+-------------------------------------------------------*/
+
+.adminLeft
+{
+    background-image: url(   'images/isadminTL.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 3px;
+}
+
+.adminMiddle
+{
+    background-image: url('Images/isadminBG.gif');
+    background-repeat: repeat-x;
+    height: 23px;
+    vertical-align: middle;
+    text-align: left;
+    color: White;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.adminRight
+{
+    background-image: url(   'images/isadminRL.gif' );
+    background-repeat: no-repeat;
+    height: 23px;
+    margin-left: 25px;
+    width: 6px;
+}
+
+.adminBox
+{
+    min-height: 390px;
+    padding: 5px 5px 5px 5px;
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.iframe
+{
+    background-color: transparent; z-index: -10;
+}
+
+.xframe
+{
+    background-color: transparent; padding-top: 8px; z-index:-10;
+}
+
+.deptReqHead
+{
+    font-family:Calibri;
+    font-size:16px;   
+    color:Blue;
+    font-weight:normal;
+}
+
+.deptReqContent
+{   
+    font-family:Segoe UI;
+    font-size:13px;   
+}

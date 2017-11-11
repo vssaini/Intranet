@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration background="Silver" AutoStart="true" StartInAlbumView="true" >
+    <module name="EmbedViewer">
+        <option name="Enabled" value="false" />
+    </module>
+    <module name="ToggleEmbedViewButton">
+        <option name="Enabled" value="false" />
+    </module>
+    <module name="Preloader">
+        <option name="PreloadAhead" value="5" />
+    </module>
+    <module name="ToggleSaveButton">
+        <option name="Enabled" value="false" />
+        <option name="DownloadImageHandler" value="http://localhost/intranet/DownloadImage.ashx?image=" />
+    </module>
+    <module name="SlideDescription">
+        <option name="DescriptionHeight" value="20" />
+    </module>
+    <module name="AlbumButton">
+        <option name="TitleFontSize" value="11"/>
+        <option name="Padding" value="12"/>
+    </module>
+    <module name="LoadingProgressIndicator">
+        <option name="Type" value="bar"/>
+        <option name="Width" value="150"/>        
+    </module>
+    <transitions>
+        <transition type="FadeTransition" name="CrossFadeTransition" />
+    </transitions>    
+</configuration>
